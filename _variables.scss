@@ -1,16 +1,28 @@
 // Fonts -------------------------------------------------------------------------------------/
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans:600);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+$titles-font:'Roboto Slab', serif;
+$base-font:'Open Sans', sans-serif;
+$striking-font:'Shadow Into Light', sans-serif;
+
+$principal-title: 50px $titles-font;
+$second-title: 40px $titles-font;
+$sub-title: 30px $titles-font;
+$feature-text: 25px $striking-font;
+$prominent-text: 600 20px $base-font;
+$date-line: 600 16px $base-font;
+$main-text: 16px $base-font;
+
 
 // Colors -------------------------------------------------------------------------------------/
 
 // Primary palette (institucional)
 
 $institutional-primary-color:#67B43A;
-
 $institutional-secondary-color:#9EC42E;
-
 $institutional-third-color:#CDD625;
 
 // Secondary palette
