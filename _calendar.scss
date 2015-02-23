@@ -1,0 +1,73 @@
+
+.upcoming-events{
+  li{
+    margin: .5em;
+  }
+  .datetime{
+    position: relative;
+    height: 100%;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+
+    .date{
+      display: block;
+      font: $principal-title;
+      color:$light-gray;
+      text-align: center;
+    }
+    .month{
+      display: block;
+      font: $prominent-text;
+      color:$medium-gray;
+      text-align: center;
+    }
+    .schedule{
+      display: block;
+      text-align: center;
+      margin: .5em;
+    }
+  }
+  .details{
+    display: inline-block;
+    width: 64%;
+    vertical-align: top;
+    padding:0 2%;
+    border-left: 2px solid $couch-secondary-color;
+    box-sizing: border-box;
+    .title{
+      font: 25px $titles-font;
+      margin: 0;
+      color:$medium-gray;
+    }
+    .instructor{
+      font: 18px $base-font;
+      font-style: italic;
+      color: $couch-primary-color;
+      margin: .2em;
+    }
+  }
+  .controls{
+    display: inline-block;
+    width: 9%;
+    vertical-align: bottom;
+    .view_more{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius:50%;
+      border: none;
+      color: white;
+      font-size: 19px;
+      background:$couch-secondary-color;
+      margin: .5em 0;
+      &:hover{
+        background:$couch-primary-color;
+        transition: background 1s;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+}

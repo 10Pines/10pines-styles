@@ -44,3 +44,10 @@ $train-third-color:#8BB2D7;//(training)
 $dark-gray:#3C3C3B;
 $medium-gray:#80807F;
 $light-gray:#BCBCBC;
+
+//body
+
+body{
+  font:$main-text;
+  color:$dark-gray;
+}
